@@ -31,3 +31,10 @@
 .chamada__botao {
     width: 100%;
 }
+
+/* Para definir para tablets: 768 até 1024 */
+@media screen and (min-width: 768px) {
+    .chamada__texto {
+        max-width: 600px;
+    }
+}
